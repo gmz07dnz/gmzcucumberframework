@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="472.182">
+<testcase classname="US1004_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali" time="241.718">
+<system-out><![CDATA[When kullanici wallmart sayfasina gider.....................................passed
+And wallmart sayfasinda "Nutella" icin arama yapar..........................passed
+Then wallmartta sayfa basliginin "Nutella" icerdigini test eder.............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1004_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_2" time="37.299">
+<system-out><![CDATA[When kullanici wallmart sayfasina gider.....................................passed
+And wallmart sayfasinda "pencil" icin arama yapar...........................passed
+Then wallmartta sayfa basliginin "pencil" icerdigini test eder..............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1004_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_3" time="34.183">
+<system-out><![CDATA[When kullanici wallmart sayfasina gider.....................................passed
+And wallmart sayfasinda "milk" icin arama yapar.............................passed
+Then wallmartta sayfa basliginin "milk" icerdigini test eder................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1004_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_4" time="33.896">
+<system-out><![CDATA[When kullanici wallmart sayfasina gider.....................................passed
+And wallmart sayfasinda "tomatoes" icin arama yapar.........................passed
+Then wallmartta sayfa basliginin "tomatoes" icerdigini test eder............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1004_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_5" time="34.814">
+<system-out><![CDATA[When kullanici wallmart sayfasina gider.....................................passed
+And wallmart sayfasinda "popcorn" icin arama yapar..........................passed
+Then wallmartta sayfa basliginin "popcorn" icerdigini test eder.............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli" time="41.284">
+<system-out><![CDATA[When kullanici "bestbuy_url" sayfasina gider................................passed
+Then "bestbuy_url" de oldugunu test eder....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_2" time="16.922">
+<system-out><![CDATA[When kullanici "amazon_url" sayfasina gider.................................passed
+Then "amazon_url" de oldugunu test eder.....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_3" time="16.096">
+<system-out><![CDATA[When kullanici "ebay_url" sayfasina gider...................................passed
+Then "ebay_url" de oldugunu test eder.......................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_yazilan_her_url’e_gitmeli_4" time="14.876">
+<system-out><![CDATA[When kullanici "chrome_url" sayfasina gider.................................passed
+Then "chrome_url" de oldugunu test eder.....................................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

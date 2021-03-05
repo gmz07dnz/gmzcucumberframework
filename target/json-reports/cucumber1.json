@@ -1,0 +1,869 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T12:14:55.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1004-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7429000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 213181000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici wallmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullaniciWallmartSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20032000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wallmart sayfasinda \"Nutella\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nutella\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmartSayfasindaIcinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wallmartta sayfa basliginin \"Nutella\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nutella\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmarttaSayfaBasligininIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:18:57.528Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1004-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 7827000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11693000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici wallmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullaniciWallmartSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16803000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wallmart sayfasinda \"pencil\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmartSayfasindaIcinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wallmartta sayfa basliginin \"pencil\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmarttaSayfaBasligininIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 927000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:19:34.858Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1004-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6630000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16401000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici wallmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullaniciWallmartSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10120000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wallmart sayfasinda \"milk\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"milk\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmartSayfasindaIcinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wallmartta sayfa basliginin \"milk\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"milk\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmarttaSayfaBasligininIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 991000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:20:09.041Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1004-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 8538000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13334000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici wallmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullaniciWallmartSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11228000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wallmart sayfasinda \"tomatoes\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomatoes\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmartSayfasindaIcinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wallmartta sayfa basliginin \"tomatoes\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomatoes\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmarttaSayfaBasligininIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 762000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:20:42.947Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1004-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 9399000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11799000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici wallmart sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.WallmartStepDefinitions.kullaniciWallmartSayfasinaGider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11886000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wallmart sayfasinda \"popcorn\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"popcorn\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmartSayfasindaIcinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "wallmartta sayfa basliginin \"popcorn\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"popcorn\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.WallmartStepDefinitions.wallmarttaSayfaBasligininIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1657000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "US1004_Walmart_parameter_arama",
+    "description": "",
+    "id": "us1004-walmart-parameter-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1004_Walmart_parameter_arama.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T12:21:17.931Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TC08_yazilan_her_url’e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-yazilan-her-url’e-gitmeli;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6920000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10585000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici \"bestbuy_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bestbuy_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21805000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "\"bestbuy_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bestbuy_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1972000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:21:59.241Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC08_yazilan_her_url’e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-yazilan-her-url’e-gitmeli;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6705000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8889000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici \"amazon_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "\"amazon_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1042000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:22:16.191Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC08_yazilan_her_url’e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-yazilan-her-url’e-gitmeli;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6805000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7812000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici \"ebay_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ebay_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "\"ebay_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ebay_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1437000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T12:22:32.307Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TC08_yazilan_her_url’e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-yazilan-her-url’e-gitmeli;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 6736000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7176000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "kullanici \"chrome_url\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "\"chrome_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestBuyStepDefinions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 934000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "US1006_Dinamik_url_test",
+    "description": "",
+    "id": "us1006-dinamik-url-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1006_Dinamik_url_test.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
